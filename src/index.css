@@ -1,0 +1,377 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Inputlable {
+  font-size: 12px !important;
+  font-weight: 600 !important;
+}
+
+#btnSave {
+  /* background-image: linear-gradient(#026d65, #39083a); */
+  /* border: 1px solid #39083a; */
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .3) 0 5px 15px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-size: .9em;
+  margin: 5px;
+  padding: 2px 5px;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  text-transform: none;
+  background-color: #336699;
+}
+
+#btnCancel {
+  /* background-image: linear-gradient(#026d65, #39083a); */
+  /* border: 1px solid #39083a; */
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .3) 0 5px 15px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-size: .9em;
+  margin: 5px;
+  padding: 2px 5px;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  text-transform: none;
+  background-color: #d32f2f;
+}
+
+.inputGrid {
+  /* padding-right: 25px !important; */
+  padding-bottom: 18px !important;
+}
+
+.listPaper {
+  margin: 0px 0px 15px 15px !important;
+  padding: 5px;
+  box-shadow: none !important;
+}
+
+.menuItem {
+  font-size: 12px !important;
+}
+
+.guestpass {
+  font-size: 12px !important;
+  font-weight: bold !important;
+}
+
+.sidbarTab {
+  display: grid !important;
+  justify-content: center !important;
+  align-items: center !important;
+  /* padding: 2px 2px 2px 2px !important; */
+}
+
+.dashboardTopcard {
+  background: radial-gradient(circle, #336699 0%, #2a4b8a 100%);
+  border: 1px solid #c0c0c0;
+  border-radius: 12px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin: 18px;
+  box-shadow: 11px 18px 35px -10px rgba(0, 0, 0, 0.61);
+}
+
+.dashboardcardTitle {
+  margin-top: 20px !important;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+}
+
+.dashboardcardCount {
+  color: #fff;
+  font-size: 86px !important;
+  font-weight: bold !important;
+  text-align: center;
+  font-family: 'Bebas Neue';
+}
+
+.admindashboardTopcard {
+  background: #800080;
+  border: 1px solid #c0c0c0;
+  border-radius: 8px;
+  display: grid;
+  align-items: start;
+  margin: 10px;
+  box-shadow: 11px 18px 35px -10px rgba(0, 0, 0, 0.61);
+}
+.admindashboardTopcard1 {
+  background: #009688;
+  border: 1px solid #c0c0c0;
+  border-radius: 8px;
+  display: grid;
+  align-items: start;
+  margin: 10px;
+  box-shadow: 11px 18px 35px -10px rgba(0, 0, 0, 0.61)
+ }
+ .admindashboardTopcard2{
+  background: #33691e;
+  border: 1px solid #c0c0c0;
+  border-radius: 8px;
+  display: grid;
+  align-items: start;
+  margin: 10px;
+  box-shadow: 11px 18px 35px -10px rgba(0, 0, 0, 0.61)
+ }
+ .admindashboardTopcard3{
+  background: #283593;
+  border: 1px solid #c0c0c0;
+  border-radius: 8px;
+  display: grid;
+  align-items: start;
+  margin: 10px;
+  box-shadow: 11px 18px 35px -10px rgba(0, 0, 0, 0.61)
+ }
+ .admindashboardTopcard4{
+  background: #5e35b1;
+  border: 1px solid #c0c0c0;
+  border-radius: 8px;
+  display: grid;
+  align-items: start;
+  margin: 10px;
+  box-shadow: 11px 18px 35px -10px rgba(0, 0, 0, 0.61)
+ }
+ .admindashboardTopcard5{
+  background: #00acc1;
+  border: 1px solid #c0c0c0;
+  border-radius: 8px;
+  display: grid;
+  align-items: start;
+  margin: 10px;
+  box-shadow: 11px 18px 35px -10px rgba(0, 0, 0, 0.61)
+
+ }
+.admindashboardcardTitle {
+  color: #fff;
+  margin-top: 22px !important;
+  color: #fff;
+  font-size: 8px;
+  text-align: start;
+  margin-left: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+.admindashboardcardTitle1 {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  color: black;
+  font-weight: 900 !important;
+  font-size: 20px;
+  font-family: Cambria !important;
+}
+
+.admindashboardcardCount {
+  color: #fff;
+  margin-top: 20px !important;
+  font-size: 17px !important;
+  font-weight: bold !important;
+  text-align: center;
+  font-family: 'Times New Roman", Times, serif';
+}
+
+.invitationTopcard {
+  background: radial-gradient(circle, #336699 0%, #2a4b8a 100%);
+  border: 1px solid #c0c0c0;
+  border-radius: 12px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin: 8px;
+  box-shadow: 11px 18px 35px -10px rgba(0, 0, 0, 0.61);
+}
+
+/* button css */
+
+.prevBtn {
+  --color: rgb(35, 153, 250) !important;
+  --sizeX: 90px !important;
+  --sizeY: 35px !important;
+  position: relative !important;
+  width: var(--sizeX) !important;
+  height: var(--sizeY) !important;
+  margin-left: var(sizeX / 2) !important;
+  /* border: calc(var(--sizeX) / 10) solid var(--color) !important; */
+  /* border: 1px solid #a8a8a8 !important; */
+  border-radius: 50px !important;
+  box-sizing: border-box !important;
+  margin-bottom: 16px !important;
+  transform: rotate(0deg) !important;
+  padding-right: 14px !important;
+}
+
+.nextBtn {
+  --color: rgb(35, 153, 250) !important;
+  --sizeX: 90px !important;
+  --sizeY: 35px !important;
+  position: relative !important;
+  width: var(--sizeX) !important;
+  height: var(--sizeY) !important;
+  /* margin-left: var(sizeX / 2) !important; */
+  /* border: calc(var(--sizeX) / 10) solid var(--color) !important; */
+  /* border: 1px solid #a8a8a8 !important; */
+  border-radius: 50px !important;
+  box-sizing: border-box !important;
+  margin-bottom: 16px !important;
+  transform: rotate(0deg) !important;
+  padding-left: 14px !important;
+}
+
+.scrolldown::before {
+  content: "";
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  width: 6px;
+  height: 6px;
+  margin-left: -3px;
+  background-color: var(--color);
+  border-radius: 100%;
+  animation: scrolldown-anim 2s infinite;
+  box-sizing: border-box;
+  box-shadow: 0px -5px 3px 1px #ffffff66;
+}
+
+@keyframes scrolldown-anim {
+  0% {
+    opacity: 0;
+    height: 6px;
+  }
+
+  40% {
+    opacity: 1;
+    height: 10px;
+  }
+
+  80% {
+    transform: translate(0, 20px);
+    height: 10px;
+    opacity: 0;
+  }
+
+  100% {
+    height: 3px;
+    opacity: 0;
+  }
+}
+
+.chevrons {
+  padding: 0px 0 0 0;
+  margin-left: 5px;
+
+  margin-top: 0px;
+  width: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.chevrondown {
+  margin-left: 6px;
+  position: relative;
+  border: solid var(--color);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  transform: rotate(140deg);
+}
+
+.chevronright {
+  /* margin-right: 6px; */
+  position: relative;
+  border: solid var(--color);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  transform: rotate(320deg);
+}
+
+.chevrondown:nth-child(odd) {
+  animation: pulse 500ms ease infinite alternate;
+}
+
+.chevrondown:nth-child(even) {
+  animation: pulse 500ms ease infinite alternate 250ms;
+}
+
+.chevronright:nth-child(odd) {
+  animation: pulse 500ms ease infinite alternate;
+}
+
+.chevronright:nth-child(even) {
+  animation: pulse 500ms ease infinite alternate 250ms;
+}
+
+@keyframes pulse {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 0.5;
+  }
+}
+
+.visitorActionBtn {
+  font-size: 12px !important;
+  text-transform: none !important;
+  margin: 4px !important;
+  border-radius: 0px !important;
+  border-bottom: 1px solid #c0c0c0 !important;
+  padding: 2px !important;
+  justify-content: space-between !important;
+  color: #000000 !important;
+  min-width: 120px !important;
+}
+
+.visitorActionBtn:hover {
+  /* border-bottom: 2px solid #fd0e0e !important; */
+  background-color: #9caab9 !important;
+  border-radius: 4px !important;
+}
+
+.guestPassBtn {
+  border: 1px solid #d9d9d9;
+  padding: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+.guestPassBtn:hover {
+  border: 1px solid #2d7cf3;
+}
+
+.excelIconBox {
+  border: 1px solid #c4c4c4 !important;
+  display: flex !important;
+  justify-content: center !important;
+  border-radius: 5px !important;
+  width: 30px !important;
+  height: 28px !important;
+  margin-left: 10px !important;
+  cursor: pointer;
+}
