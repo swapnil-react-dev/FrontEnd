@@ -241,7 +241,7 @@ const NotificationBar = ({ container }) => {
                                                             <Button sx={{ fontSize: "10px", height: "18px", background: "#336699", textDecoration: 'none' }} variant='contained' color="primary" type="submit" onClick={() => handleAcceptReject(alertDetails.id, alertDetails.visitor_id, 1, 'Allowed', alertDetails.check_in_time)}>Accept</Button>
                                                         </Grid>
                                                         <Grid item xs={6}>
-                                                            <Button sx={{ fontSize: "10px", height: "18px" }} variant='contained' color="error" type="submit" onClick={() => handleAcceptReject(alertDetails.id, alertDetails.visitor_id, 2, 'Rejected')}>Reject22</Button>
+                                                            <Button sx={{ fontSize: "10px", height: "18px" }} variant='contained' color="error" type="submit" onClick={() => handleAcceptReject(alertDetails.id, alertDetails.visitor_id, 2, 'Rejected')}>Reject</Button>
                                                         </Grid>
                                                     </Grid>
                                                 </CardContent>
